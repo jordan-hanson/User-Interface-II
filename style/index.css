@@ -1,1 +1,66 @@
 /* Add CSS styling here */
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 0px !important;
+    }
+    #project-image1 {
+        height: 100%;
+        width: 100%;
+    
+    }
+    .carousel-caption{
+        right: 2px;
+        left: 2px;
+    }
+    .projectTitle{
+        text-align: center;
+    }
+    .card-title {
+        text-align: center;
+    }
+    .card-text {
+        text-align: center;
+    }
+    .col-5{
+        padding: 0;
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+    }
+    .img {
+        vertical-align: middle;
+    }
+    .rounded-circle {
+        /* border-radius: 50% !important; */
+        height: 300px;
+        width: 310px;
+    }
+    /* .carousel-item {
+        height: 500px;
+      }
+      
+      .carousel-item img {
+          position: absolute;
+          object-fit:cover;
+          top: 0;
+          left: 0;
+          min-height: 500px;
+      } */
+      .carousel-item{
+    
+        height: 400px;
+    } 
+    .carousel-item img{
+        /* position: absolute; */
+        height: 100%;
+        left: 30px;
+      border: 3px solid grey;
+    }
+    footer form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
